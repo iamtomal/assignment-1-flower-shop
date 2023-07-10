@@ -1,4 +1,4 @@
-
+/*first banner start*/
 .banner{
     display: flex;
     align-items: center;
@@ -29,15 +29,15 @@
 }
 .banner-discription{
     color: rgba(39, 39, 39, 0.60);
-font-family: Lato;
-font-size: 15px;
-font-weight: 400;
-line-height: 30px;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
 }
 .btn-primary{
     display: inline-flex;
     padding: 13px 27px;
-    border: pink;
+    border: none;
     border-radius: 8px;
     background: #E55473;
     color: #FFF;
@@ -45,4 +45,63 @@ line-height: 30px;
     font-size: 17px;
     font-weight: 700;
 
+}
+/*first banner end*/
+.heading{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-family: Lato;
+    padding-top: 90px;
+}
+.heading-title{
+    color: #272727;
+    font-size: 33px;
+    font-weight: 800;
+    line-height: normal;
+}
+.heading-discription{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+.image-container{
+    margin: auto;
+    max-width: fit-content;
+    display: flex;
+
+
+}
+
+.image1{
+    width: 200px;
+    height: 300px;
+    padding: 67px 75px 0 75px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    
+}
+.image2{
+    width: 200px;
+    height: 300px;
+    padding: 67px 75px 0 75px;
+    margin-left: 20px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    position: bottom;
+
+
+}
+.image3{
+    width: 200px;
+    height: 300px;
+    padding: 67px 75px 0 75px;
+    margin-left: 20px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+.image-text{
+    text-align: center;
 }
