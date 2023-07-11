@@ -1,4 +1,7 @@
 /*first banner start*/
+*{
+    margin: 0;
+}
 .banner{
     display: flex;
     align-items: center;
@@ -22,13 +25,14 @@
 .banner-title{
     color: #272727;
     font-family: Lato;
-    font-size: 47px;
+    font-size: 45px;
     font-style: normal;
     font-weight: 900;
 
 }
 .banner-discription{
     color: rgba(39, 39, 39, 0.60);
+    margin: 10px 0px;
     font-family: Lato;
     font-size: 11px;
     font-weight: 400;
@@ -57,13 +61,14 @@
 .heading-title{
     color: #272727;
     font-size: 33px;
-    font-weight: 800;
+    font-weight: 900;
     line-height: normal;
     text-align: center;
     font-family: Lato;
 }
 .heading-discription{
     color: rgba(39, 39, 39, 0.60);
+    margin: 15px 0px;
     font-size: 12px;
     font-weight: 400;
     line-height: 23px;
@@ -75,8 +80,6 @@
     margin: auto;
     max-width: fit-content;
     display: flex;
-
-
 }
 
 .image1{
@@ -127,8 +130,9 @@
     justify-content: space-between;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
+    margin-top: 30px;
     width: auto;
-    height: 420px;
+    height: 400px;
 }
 .sale-heading-title{
     color: #272727;
@@ -140,6 +144,7 @@
 }
 .sale-heading-discription{
     color: rgba(39, 39, 39, 0.60);
+    margin: 10px 0px;
     font-size: 12px;
     font-weight: 400;
     line-height: 23px;
@@ -192,19 +197,18 @@
     border-radius: 8px;
 }
 .deals-over{
-    top: 40%;
-    left: 25%;
+    top: 46%;
+    left: 21%;
     position: absolute;
     transform: translate(-50% -50%);
 }
 
 input[type="email"]{
-    width: 300px;
+    width: 380px;
     height: 20px;
     border-radius: 8px;
     background: #ffffff;
     font-size: 16px;
-    margin: auto;
     padding: 10px;
     border: none;
     font-size: 11px;
@@ -214,4 +218,40 @@ input[type="email"]{
     gap: 10px;
     padding: 5px;
 
+}
+
+.shop{
+    margin-top: 80px;
+    height: 300px;
+    width: auto;
+    position: relative;
+    background: #111010;;
+}
+.shop-title{
+    padding-top: 90px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 900;
+    line-height:40px;
+    text-align: center;
+    font-family: Lato;
+}
+.shop-discription{
+    color: rgba(255, 255, 255, 0.774);
+    margin-top: 15px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 20px;
+}
+h6{
+    color: rgba(255, 255, 255, 0.40);
+    margin-top: 15px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
